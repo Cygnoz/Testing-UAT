@@ -11,7 +11,7 @@ pipeline {
         SONARQUBE_PROJECT_KEY = 'billbizz_branch_organization'
         SONARQUBE_SCANNER_CREDENTIALS_ID = '33e99bed-88d1-4d56-826e-9b7c40073c8d' // Jenkins credentials ID for SonarQube token
         ECS_CLUSTER_NAME = 'sit-billbizz' // Replace with your ECS cluster name
-        ECS_SERVICE_NAME = 'sit-billbizz-organization' // Replace with your ECS service name
+        ECS_SERVICE_NAME = 'ssit-billbizz-organization' // Replace with your ECS service name
         ECS_TASK_DEFINITION_NAME = 'sit-billbizz-organization' // Replace with your ECS task definition name
     }
 
